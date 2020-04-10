@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microservice Arictle</title>
+    <link rel="stylesheet" href="Article.css">
+</head>
+<body>
+    <!--Heading-->
+    <div class="main">
+    <h1>Software Development Architecture</h1>
+</div>
+<!--Monolithic-->
+<div class="architecture">
+    <h2>Before Microservices - Monolithic Architecture:</h2>
+    <p>
+        Monolithic Architecture is like a big container where in all the Software components of an
+application are interconnected and assembled together and tightly packaged. It makes a
+development really easy and in one direction.</p>
+
+<img src="monolithic.png" alt="Monolithic"/>
+
+<h2>Why We Do Not Use To Monolithic Architecture:</h2>
+
+<ul>
+    <li><h3>Large and complex application:</h3>
+        <li class="iList">The large application is really complex to understand and modify such application.</li>
+    </li>
+    <li><h3>Slow Development:</h3>
+        <li class="iList">Because it can be difficult to understand, how to correctly implement a change and due
+            to that the quality of code declines over time</li>
+    </li>
+    <li><h3>Blocks Continuous Development:</h3>
+        <li class="iList">Large monolithic application is an obstacle to frequent deployments, in order to update
+            one component you have to redeploy the entire application which interrupts the
+            background task.</li>
+    </li>
+    <li><h3>Unsalable:</h3>
+        <li class="iList">Because of the tightly coupled components, if one of them goes down the entire system
+            fail to run.</li>
+    </li>
+    <li><h3>Unreliable:</h3>
+        <li class="iList">The large application is really complex to understand and modify such application.</li>
+    </li>
+</ul>
+</div>
+<!--Microservices-->
+<div class="architecture">
+
+<h2>Microservices Architecture:</h2>
+
+<p>Microservices are an architectural approach to building applications. As an architectural
+    framework, micro services are distributed and loosely coupled, so one team’s changes won’t
+    break the entire app. <br> The benefit to using micro services is that development teams are able to rapidly build new
+    components of apps to meet changing business needs. One each micro service can focus on
+    only one single business capability which definitely leads to a better quality.</p>
+
+    <img src="microservice.png" alt="Microservice"/>
+
+    <h2>Features of Microservices Architecture:</h2>
+
+    <ul>
+        <li><h3>Small Focused:</h3>
+            <li>It can be re-written and maintained without any extra efforts by the development team.</li>     
+        </li>
+        <li><h3>Loosely Coupled:</h3>
+            <li>Because each micro service is independent to each other and do not need to code, so if
+                you have to update a particular service, it will only update that service, so a deployment
+                becomes really quick.</li>     
+        </li>
+        <li><h3>Language Neutral:</h3>
+            <li>It must be language nuisance, for example in an application few services can be written
+                in python for fast development, whereas few might be written in java because its speed
+                and extensive libraries, so depend on the micro services what kind of programming
+                language we are using, so it does not really effect the other services.</li>     
+        </li>
+        <li><h3>Bounded Context:</h3>
+            <li>Each micro service does not need to understand the implementation of other
+                micro services.</li>     
+        </li>
+    </ul>
+
+    <h2>Advantage of Microservices:</h2>
+
+    <ul>
+    <li>Independent Development</li>
+    <li>Independent Deployment</li> 
+    <li>Fault Isolation</li>
+    <li>Mixed Technology Stack</li>
+    <li>Granular Scaling</li>
+    </ul>
+
+    
+    <h2>Companies Using Microservices:</h2>
+
+    <div class="Companies_Logo"></div>
+    <img src="amazon.png" alt="Amazon_logo">
+    <img src="ebay_logo.0.jpg" alt="Ebay_logo">
+    <img src="Netflix.png" alt="Netflix_logo">
+    <img src="SoundCloud.jpg" alt="SoundCloud_logo">
+    <img src="twitter-logo.jpg" alt="Twitter_logo">
+    <img src="uber.png" alt="Uber_logo">
+    </div>
+
+</div>
+</body>
+</html>
