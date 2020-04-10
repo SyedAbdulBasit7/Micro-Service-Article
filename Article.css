@@ -1,0 +1,76 @@
+body{
+    border-radius: 20px;
+    border: 5px solid white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+    background-color: honeydew;
+}
+.main{
+    text-align: center;
+    font-size: 15px;
+    width: auto;
+    margin: auto;
+}
+h1{
+    text-decoration: underline;
+}
+h2{
+    color: #003366;
+    font-size: 18px;
+}
+.architecture{
+   
+}
+.architecture p{
+    text-align: justify; 
+}
+.architecture img{
+    border-radius: 20px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.architecture li h3{
+    color: #003366;
+    font-style: italic;
+    font-size: 17px;
+    text-emphasis: none;
+    text-align: start;
+}
+.architecture li{
+    text-align: justify; 
+}
+#ms{
+    line-height: 20px;
+}
+
+.architecture div{
+    overflow: auto;
+    max-width: 50%;
+    max-height: 350px;
+    padding: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.architecture div img{
+    float: left;
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: auto;
+    padding: 10px;
+    transition-property: box-shadow;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.architecture div img:hover{
+    box-shadow: 5px 5px grey;
+
+}
+
